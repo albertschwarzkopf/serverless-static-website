@@ -10,7 +10,8 @@ service: serverless-static-website-template
 # The `provider` block defines where your service will be deployed
 provider:
   name: aws
-  runtime: nodejs6.10
+  region: eu-central-1
+  runtime: nodejs8.10
 
 resources:
   Resources:
