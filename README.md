@@ -15,4 +15,4 @@ For deploying static websites with the serverless framework do the following:
 <li>Put your static files and folders into the static directory
   
 <li>Deploy your Stack:
-  <code>serverless deploy -v --region eu-central-1</code>
+  <code>serverless deploy -v -r eu-central-1</code>
