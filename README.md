@@ -11,3 +11,5 @@ For deploying static websites with the serverless framework do the following:
 
 <li>Install the S3 sync plugin:</li>
 <code>serverless plugin install -n serverless-s3-sync</code>
+
+<li>Put your static files and folders into the static directory 
