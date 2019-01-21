@@ -44,7 +44,9 @@ resources:
                     "/*"
                   ]
                 ]
-   
+    Outputs:
+      siteName:	
+        Value: ${self:custom.siteName}
 #    DnsRecord:
 #      Type: "AWS::Route53::RecordSet"
 #      Properties:
