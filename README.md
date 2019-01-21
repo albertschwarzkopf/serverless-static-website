@@ -5,7 +5,7 @@ For deploying static websites with the serverless framework do the following:
 <code>npm install -g serverless</code>
 
 <li>Create the service. The Github-repo has to be public!:</li> 
-<code>serverless create -u https://github.com/albertschwarzkopf/serverless-static-website -n serverless-static-website-yourname</code>
+<code>serverless create -u https://github.com/albertschwarzkopf/serverless-static-website -n serverless-static-website-template</code>
 
 <li>Go in the new directory
 
@@ -15,4 +15,4 @@ For deploying static websites with the serverless framework do the following:
 <li>Put your static files and folders into the static directory
   
 <li>Deploy your Stack:
-  <code>serverless deploy -v</code>
+  <code>serverless deploy -v --region eu-central-1</code>
