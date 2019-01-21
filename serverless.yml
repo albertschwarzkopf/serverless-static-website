@@ -44,9 +44,11 @@ resources:
                     "/*"
                   ]
                 ]
-    Outputs:
-      siteName:	
-        Value: ${self:custom.siteName}
+  Outputs:
+    HttpUrl:	
+      Value: http://${self:custom.siteName}.s3-website.${self:provider.region}.amazonaws.com
+    HttpsUrl:
+      Value: https://s3.${self:provider.region}.amazonaws.com/${self:custom.siteName}/index.html 
 #    DnsRecord:
 #      Type: "AWS::Route53::RecordSet"
 #      Properties:
